@@ -68,7 +68,6 @@
 		50C59D6D2D1F54BF005BC36B /* GeneralSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C59D6C2D1F54B5005BC36B /* GeneralSettingsViewController.swift */; };
 		50C81D741FBADC9100324C2E /* VersionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C81D731FBADC9100324C2E /* VersionTest.swift */; };
 		50C857402B25CF7500F5BF0B /* UpdateRepositoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C8573F2B25CF7500F5BF0B /* UpdateRepositoryCache.swift */; };
-		50C8C85C208A0EE9004FF5D5 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 50C8C85B208A0EE9004FF5D5 /* dsa_pub.pem */; };
 		50C9F0F5234637BD00FD1802 /* UpdateCheckerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C9F0F4234637BD00FD1802 /* UpdateCheckerOperation.swift */; };
 		50C9F10A2346386B00FD1802 /* MacAppStoreCheckerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C9F1092346386B00FD1802 /* MacAppStoreCheckerOperation.swift */; };
 		50C9F10C234641E000FD1802 /* SparkleCheckerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C9F10B234641E000FD1802 /* SparkleCheckerOperation.swift */; };
@@ -80,6 +79,8 @@
 		50FEB87D2B1BE630006FB75D /* OSVersionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FEB87C2B1BE630006FB75D /* OSVersionTest.swift */; };
 		50FEB87F2B1BE67F006FB75D /* VersionSanitizationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FEB87E2B1BE67E006FB75D /* VersionSanitizationTest.swift */; };
 		50FEB8812B1D2402006FB75D /* ExcludedAppIdentifiers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50FEB8802B1D2402006FB75D /* ExcludedAppIdentifiers.plist */; };
+		5E5BEDAC2EBBA74000EB482A /* Latest-Icon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 5E5BEDAB2EBBA74000EB482A /* Latest-Icon.icon */; };
+		5EF7D5A62EBBC0D3006375AB /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5EF7D5A52EBBC0D3006375AB /* dsa_pub.pem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -278,7 +279,6 @@
 		50C8573B2B23D02C00F5BF0B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = tr; path = tr.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		50C8573C2B23D03000F5BF0B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		50C8573F2B25CF7500F5BF0B /* UpdateRepositoryCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateRepositoryCache.swift; sourceTree = "<group>"; };
-		50C8C85B208A0EE9004FF5D5 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		50C9F0F4234637BD00FD1802 /* UpdateCheckerOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCheckerOperation.swift; sourceTree = "<group>"; };
 		50C9F1092346386B00FD1802 /* MacAppStoreCheckerOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacAppStoreCheckerOperation.swift; sourceTree = "<group>"; };
 		50C9F10B234641E000FD1802 /* SparkleCheckerOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkleCheckerOperation.swift; sourceTree = "<group>"; };
@@ -333,6 +333,8 @@
 		50FEB87C2B1BE630006FB75D /* OSVersionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSVersionTest.swift; sourceTree = "<group>"; };
 		50FEB87E2B1BE67E006FB75D /* VersionSanitizationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionSanitizationTest.swift; sourceTree = "<group>"; };
 		50FEB8802B1D2402006FB75D /* ExcludedAppIdentifiers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExcludedAppIdentifiers.plist; sourceTree = "<group>"; };
+		5E5BEDAB2EBBA74000EB482A /* Latest-Icon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "Latest-Icon.icon"; sourceTree = "<group>"; };
+		5EF7D5A52EBBC0D3006375AB /* dsa_pub.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -544,6 +546,7 @@
 		5095120C1FF3623B003D2D7F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5EF7D5A52EBBC0D3006375AB /* dsa_pub.pem */,
 				50290E831E53EB7900133E3D /* Latest.entitlements */,
 				50290E781E53EB6A00133E3D /* Assets.xcassets */,
 				50290E7D1E53EB6A00133E3D /* Info.plist */,
@@ -551,9 +554,9 @@
 				5094823327C19F5800EC6B6B /* Latest Bridging_Header.h */,
 				501EA98C1EB1BD8B00D05821 /* Localizable.stringsdict */,
 				501EA9841EB1BA4400D05821 /* Localizable.strings */,
-				50C8C85B208A0EE9004FF5D5 /* dsa_pub.pem */,
 				50A86BBC27EA6BF4007A5F80 /* Credits.rtf */,
 				50FEB8802B1D2402006FB75D /* ExcludedAppIdentifiers.plist */,
+				5E5BEDAB2EBBA74000EB482A /* Latest-Icon.icon */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -803,7 +806,6 @@
 				TargetAttributes = {
 					50290E701E53EB6A00133E3D = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = VFABJ5RE5Q;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -884,12 +886,13 @@
 			files = (
 				50BC19E328230D41005945E8 /* InfoPlist.strings in Resources */,
 				50290E791E53EB6A00133E3D /* Assets.xcassets in Resources */,
-				50C8C85C208A0EE9004FF5D5 /* dsa_pub.pem in Resources */,
 				50FEB8812B1D2402006FB75D /* ExcludedAppIdentifiers.plist in Resources */,
 				501EA9821EB1BA4400D05821 /* Localizable.strings in Resources */,
 				50290E7C1E53EB6A00133E3D /* Main.storyboard in Resources */,
 				50A86BBD27EA6BF4007A5F80 /* Credits.rtf in Resources */,
+				5EF7D5A62EBBC0D3006375AB /* dsa_pub.pem in Resources */,
 				501EA98A1EB1BD8B00D05821 /* Localizable.stringsdict in Resources */,
+				5E5BEDAC2EBBA74000EB482A /* Latest-Icon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1307,13 +1310,14 @@
 		50290E811E53EB6A00133E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Latest-Icon";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 9XCKWAKCP6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1328,8 +1332,8 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 0.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.max-langer.Latest";
+				MARKETING_VERSION = 0.20;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asboy2035.Latest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INCLUDE_PATHS = "$(inherited) $(SRCROOT)/Frameworks/CommerceKit $(SRCROOT)/Frameworks/StoreFoundation";
@@ -1341,13 +1345,14 @@
 		50290E821E53EB6A00133E3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Latest-Icon";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 9XCKWAKCP6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1362,8 +1367,8 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 0.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.max-langer.Latest";
+				MARKETING_VERSION = 0.20;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asboy2035.Latest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INCLUDE_PATHS = "$(inherited) $(SRCROOT)/Frameworks/CommerceKit $(SRCROOT)/Frameworks/StoreFoundation";

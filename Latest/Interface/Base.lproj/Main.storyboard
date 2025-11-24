@@ -457,7 +457,7 @@
                                 <toolbarItem implicitItemIdentifier="5B354B41-598E-4279-9FD9-F493AEA477C5" label="Update All" paletteLabel="Update All" image="square.and.arrow.down.on.square" catalog="system" sizingBehavior="auto" id="qS5-vO-h2j">
                                     <nil key="toolTip"/>
                                     <button key="view" toolTip="Update All" verticalHuggingPriority="750" id="wmL-ks-XSr">
-                                        <rect key="frame" x="18" y="14" width="27" height="23"/>
+                                        <rect key="frame" x="17" y="14" width="29" height="23"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="square.and.arrow.down.on.square" catalog="system" imagePosition="only" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LPH-XM-HRa">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -845,32 +845,32 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Menu" id="Ake-Tt-cX3">
                         <items>
-                            <menuItem title="Update" id="00n-xr-jcQ">
+                            <menuItem title="Update" image="square.and.arrow.down" catalog="system" id="00n-xr-jcQ">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="updateApp:" target="MxB-hL-adL" id="1IZ-Ca-AKt"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Ignore" id="PS4-wi-kF9" userLabel="Ignore">
+                            <menuItem title="Ignore" image="xmark.bin" catalog="system" id="PS4-wi-kF9" userLabel="Ignore">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="ignoreApp:" target="MxB-hL-adL" id="eZ6-zI-CeB"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Don't Ignore" id="Ljr-hV-usc" userLabel="Unignore">
+                            <menuItem title="Don't Ignore" image="arrow.up.bin" catalog="system" id="Ljr-hV-usc" userLabel="Unignore">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="unignoreApp:" target="MxB-hL-adL" id="oa9-yN-Xq6"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="Sha-Xo-nI1"/>
-                            <menuItem title="Open" id="w14-Ia-4l9" userLabel="Open">
+                            <menuItem title="Open" image="arrow.up.forward" catalog="system" id="w14-Ia-4l9" userLabel="Open">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="openApp:" target="MxB-hL-adL" id="BeE-Pr-FN9"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Show in Finder" id="h9B-7u-6ru">
+                            <menuItem title="Show in Finder" image="finder" catalog="system" id="h9B-7u-6ru">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="showAppInFinder:" target="MxB-hL-adL" id="iar-Jd-EH1"/>
@@ -1653,6 +1653,7 @@
         <image name="NSTouchBarRefreshTemplate" width="18" height="21"/>
         <image name="NSTouchBarSearchTemplate" width="20" height="20"/>
         <image name="arrow.trianglehead.2.clockwise.rotate.90" catalog="system" width="16" height="15"/>
+        <image name="arrow.up.bin" catalog="system" width="19" height="14"/>
         <image name="arrow.up.forward" catalog="system" width="13" height="12"/>
         <image name="externaldrive" catalog="system" width="18" height="13"/>
         <image name="finder" catalog="system" width="16" height="15"/>
@@ -1661,5 +1662,6 @@
         <image name="heart" catalog="system" width="16" height="14"/>
         <image name="square.and.arrow.down" catalog="system" width="15" height="17"/>
         <image name="square.and.arrow.down.on.square" catalog="system" width="17" height="20"/>
+        <image name="xmark.bin" catalog="system" width="19" height="14"/>
     </resources>
 </document>
